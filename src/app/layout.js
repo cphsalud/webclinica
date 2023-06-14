@@ -1,23 +1,17 @@
 import StyledComponentsRegistry from '@/lib/registry';
-import Analytics from 'analytics'
-import googleTagManager from '@analytics/google-tag-manager'
 import { Red_Hat_Display } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import 'animate.css';
+import TagManager from 'react-gtm-module';
 
 const redHatDisplay = Red_Hat_Display({ subsets: ['latin'] })
 
-const analytics = Analytics({
-  app: 'cph-app',
-  plugins: [
-    googleTagManager({
-      containerId: 'GTM-PWN9HRZ'
-    })
-  ]
-})
+const tagManagerArgs = {
+  gtmId: 'GTM-PWN9HRZ'
+}
 
-analytics.page()
+TagManager.initialize(tagManagerArgs)
 
 export default function RootLayout({ children }) {
   return (
