@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
         <body className={redHatDisplay.className}>
           <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
           <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></Script>
+          <Script id="hs-script-loader" async defer src="//js.hs-scripts.com/39948634.js"></Script>
         </body>
       </html>
     </>
