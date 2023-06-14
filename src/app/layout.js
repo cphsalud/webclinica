@@ -1,3 +1,6 @@
+'use client'
+
+import { useEffect } from 'react';
 import StyledComponentsRegistry from '@/lib/registry';
 import { Red_Hat_Display } from 'next/font/google';
 import Script from 'next/script';
@@ -11,9 +14,12 @@ const tagManagerArgs = {
   gtmId: 'GTM-PWN9HRZ'
 }
 
-TagManager.initialize(tagManagerArgs)
-
 export default function RootLayout({ children }) {
+
+  useEffect(() => {
+    TagManager.initialize(tagManagerArgs);
+  }, [])
+
   return (
     <>
       <html lang="es">
