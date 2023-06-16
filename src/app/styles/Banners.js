@@ -3,7 +3,7 @@ import { Device } from './Device';
 
 export const BannerOneContainer = styled.section`
     position: relative;
-    width: 100;
+    width: 100%;
     @media ${Device.mobileS} {
         height: 350px;
     }

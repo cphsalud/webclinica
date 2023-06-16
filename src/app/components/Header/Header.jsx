@@ -113,6 +113,11 @@ export const Header = () => {
                                 <p>Informacion al paciente</p>
                             </Link>
                         </li>
+                        <li>
+                            <Link href="/politicas-privacidad" onClick={handleTop}>
+                                <p>Políticas de Privacidad</p>
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </div>

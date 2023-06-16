@@ -117,6 +117,29 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
 
+  .text-politicas{
+    position: relative;
+    width: 100%;
+    max-width: 1350px;
+    margin: auto;
+    padding: 40px 20px;
+    h1{
+      font-weight: 700;
+      font-size: var(--fs-xs);
+      margin: 15px 0;
+    }
+    a{
+      button{
+        margin-top: 30px;
+      }
+    }
+    ul{
+      margin: 3% 0;
+      padding-left: 3%;
+      list-style: disc;
+    }
+  }
+
   .text-garantias{
     position: relative;
     width: 100%;

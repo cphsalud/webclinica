@@ -11,7 +11,7 @@ export const Contact = () => {
     return (
         <ContactContainer id="contact">
             <div className="title">
-                <h1>Ven a concer CPH Salud</h1>
+                <h1>Ven a conocer CPH Salud</h1>
                 <p>Reserva tu cita Odontológica con nosotros</p>
             </div>
             <div className="boxes">
@@ -21,7 +21,7 @@ export const Contact = () => {
                     </div>
                     <div className="content">
                         <h3>Por email</h3>
-                        <p>contacto@cphsalud.cl</p>
+                        <a href="mailto: contacto@cphsalud.cl">contacto@cphsalud.cl</a>
                     </div>
                 </div>
                 <div className="box">
@@ -39,7 +39,9 @@ export const Contact = () => {
                     </div>
                     <div className="content">
                         <h3>Estamos aquí</h3>
-                        <p>Ahumada 254 oficina 307  <br /> Santiago, Región Metropolitana</p>
+                        <a href="https://goo.gl/maps/5pEFTS3fBGf3aUmHA" target='_blank'>
+                            <p>Ahumada 254 oficina 307  <br /> Santiago, Región Metropolitana</p>
+                        </a>
                     </div>
                 </div>
             </div>
