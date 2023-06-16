@@ -4,7 +4,7 @@ import { BannerP } from '../../images/BannerP';
 
 export const BannerOne = () => {
 
-    const text = 'Doctores';
+    const text = 'Profesionales';
     const num = '30vw';
 
 

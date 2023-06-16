@@ -94,8 +94,8 @@ export const Header = () => {
                             </Link>
                         </li>
                         <li>
-                            <Link href="/doctores" onClick={handleTop}>
-                                <p>Doctores</p>
+                            <Link href="/profesionales" onClick={handleTop}>
+                                <p>Profesionales</p>
                             </Link>
                         </li>
                         <li>
