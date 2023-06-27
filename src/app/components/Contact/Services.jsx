@@ -15,9 +15,11 @@ export const Services = () => {
                 <div className="services__text">
                     <p>Es la nueva forma de <b>vivir la odontología</b> en Chile.</p>
                 </div>
-                <Link href="/especialidades">
-                    <ButtonLineBlack>Conoce más sobre nuestros servicios</ButtonLineBlack>
-                </Link>
+                <ButtonLineBlack>
+                    <Link href="/especialidades" scroll={false}>
+                        Conoce más sobre nuestros servicios
+                    </Link>
+                </ButtonLineBlack>
             </div>
         </ServicesContainer>
     )
