@@ -91,22 +91,13 @@ export const Reviews = () => {
                         <div className="card">
                             <div className="card-body">
                                 <div className="text">
-                                    <p>Profesionales confiables y preparados,
-                                        así definiría a Clínica Padre Hurtado.
-                                        Una atención centrada en las necesidades
-                                        del paciente y con una atención muy
-                                        cercana y diagnóstico certero.
-                                        Los precios lejos de ser excesivos,
-                                        fueron justos en comparación a otros
-                                        presupuestos que ya tenia y me dieron
-                                        la confianza de que lo que me estaban
-                                        diagnosticando respondía plenamente
-                                        a mi situación. Muchas gracias a
-                                        todo el equipo!
+                                    <p>
+                                        Hola gente , hoy fui a sacarme una muela del juicio con el doctor Francisco Ortiz Lobos, quería decir que es un excelente profesional, muy cercano con sus pacientes, no me dolió nada, ni sentí cuando me extrajo la muela,
+                                        el estuvo pendiente de mi con su asistente todo el tiempo y me conversaba para bajar mi nerviosismo, se los recomiendo al 10000% y mas, muchas gracias por su excelente servicio quede muy feliz saludos .
                                     </p>
                                 </div>
                                 <div className="names">
-                                    <b>Alvaro Vizcarra.</b>
+                                    <b>Leslie Díaz Garrido</b>
                                 </div>
                             </div>
                         </div>

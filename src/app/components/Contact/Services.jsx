@@ -2,6 +2,7 @@ import { ServicesContainer } from '@/app/styles/Home';
 import { MyImages } from '../images/MyImages';
 import logo from '@/app/assets/logos/logocolor.svg';
 import { ButtonLineBlack } from '@/app/styles/Buttons/Buttons';
+import Link from 'next/link';
 
 export const Services = () => {
     return (
@@ -14,7 +15,9 @@ export const Services = () => {
                 <div className="services__text">
                     <p>Es la nueva forma de <b>vivir la odontología</b> en Chile.</p>
                 </div>
-                <ButtonLineBlack>Conoce más sobre nuestros servicios</ButtonLineBlack>
+                <Link href="/especialidades">
+                    <ButtonLineBlack>Conoce más sobre nuestros servicios</ButtonLineBlack>
+                </Link>
             </div>
         </ServicesContainer>
     )

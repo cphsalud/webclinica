@@ -7,6 +7,8 @@ import Script from 'next/script';
 import './globals.css';
 import 'animate.css';
 import TagManager from 'react-gtm-module';
+import Head from 'next/head';
+import { NextSeo } from 'next-seo';
 
 const redHatDisplay = Red_Hat_Display({ subsets: ['latin'] })
 
@@ -18,6 +20,13 @@ export default function RootLayout({ children }) {
 
   useEffect(() => {
     TagManager.initialize(tagManagerArgs);
+  }, [])
+
+  useEffect(() => {
+    <NextSeo
+      name="facebook-domain-verification"
+      content="y1kt4e5vsxp6llyytndaplvkt5pmqd"
+    />
   }, [])
 
   return (
