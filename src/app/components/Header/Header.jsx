@@ -58,7 +58,7 @@ export const Header = () => {
                     </li>
                     <li>
                         <div className="rrss-header">
-                            <a href="https://a878ac7020d193c1dc78740f7966df3c6a02c5e8.agenda.softwaredentalink.com/agendas/agendamient" target="_blank">
+                            <a href="https://a878ac7020d193c1dc78740f7966df3c6a02c5e8.agenda.softwaredentalink.com/agendas/agendaExpress" target="_blank">
                                 <ButtonComplete><p>Agendar hora</p></ButtonComplete>
                             </a>
                             <a href="#contact">
