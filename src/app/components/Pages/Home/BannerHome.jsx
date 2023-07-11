@@ -19,7 +19,7 @@ export const BannerHome = () => {
                 <div className="title">
                     <h1>17 años de experiencia</h1>
                     <p>en <span>Odontología</span> Avanzada</p>
-                    <a href="https://wa.me/56962077579" target='_blank'>
+                    <a href="https://a878ac7020d193c1dc78740f7966df3c6a02c5e8.agenda.softwaredentalink.com/agendas/agendamient" target='_blank'>
                         {MyButtonLine('Agenda tu Hora')}
                     </a>
                 </div>
