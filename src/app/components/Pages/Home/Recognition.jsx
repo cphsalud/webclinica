@@ -26,10 +26,13 @@ export const Recognition = () => {
                         {MyImages(lines)}
                         <div className="bg"></div>
                         <div className="box-text">
-                            <p>Utilizamos tratamientos y <span>tecnologías avanzadas para dar con el diagnóstico más certero</span>
-                                y no tratar sólo tus dientes, <span>sino ayudarte a sanar y mejorar</span> tu salud oral.
-                                <span>Además</span> ofrecemos tratamientos que conjugan <span>función y alta estética,</span>
-                                otorgando una <span>larga duración,</span> ocupando materiales biocompatibles.</p>
+                            <p><span>¿Por qué elegir a CPHsalud?</span>
+                                <br />
+                                - Contamos con todas las especialidades  <br />
+                                - Contamos con laboratorio propio de última tecnología <br />
+                                - Las mejores garantías en la industria dental <br />
+                                - Facilidades de pago para tu comodidad
+                            </p>
                         </div>
                     </div>
                 </div>

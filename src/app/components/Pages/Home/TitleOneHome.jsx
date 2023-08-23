@@ -5,9 +5,9 @@ import Image from 'next/image';
 export const TitleOneHome = () => {
     return (
         <TitleOneHomeContainer>
-            <p>Reconocidos a <span>nivel nacional</span> por el <span>éxito y calidad</span> de nuestros tratamientos
+            <p>Te ayudamos a <span>recuperar</span> tu autoestima y a <span>sonreír sin miedo</span>.
             </p>
-            <Image src={medalla} alt='' />
+            {/* <Image src={medalla} alt='' /> */}
         </TitleOneHomeContainer>
     )
 }

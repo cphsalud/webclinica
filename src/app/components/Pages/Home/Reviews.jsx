@@ -102,6 +102,48 @@ export const Reviews = () => {
                             </div>
                         </div>
                     </div>
+                    <div>
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="text">
+                                    <p>
+                                        Muy agradecida por  la atención de la clínica dental  llevo muchos años con ellos por unos implantes que hasta ahora   han sido genial lo recomiendo  al 100 en especial al Dr. Ortiz.
+                                    </p>
+                                </div>
+                                <div className="names">
+                                    <b>Erika Cayupan</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="text">
+                                    <p>
+                                        Excelente clínica y trato con cada paciente, calidad en sus tratamientos, doctores cercanos y dedicados en su especialidad. Sobre todo el doctor Francisco Ortiz (implantólogo).
+                                    </p>
+                                </div>
+                                <div className="names">
+                                    <b>Sandra Sandoval</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div className="card">
+                            <div className="card-body">
+                                <div className="text">
+                                    <p>
+                                        Me encantaron mis carillas quedaron hermosas. Super confiable el lugar, limpio y con personal capacitado para cada servicio. Un 7
+                                    </p>
+                                </div>
+                                <div className="names">
+                                    <b>Bernardita Escalera</b>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </Slider>
             </div>
         </ReviewsContainer>
